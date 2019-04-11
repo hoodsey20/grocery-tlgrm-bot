@@ -1,0 +1,18 @@
+{
+  "name": "domovitiy-gusak-tlgrm-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hoodsey20",
+  "license": "ISC",
+  "dependencies": {
+    "https-proxy-agent": "^2.2.1",
+    "telegraf": "^3.28.0"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
