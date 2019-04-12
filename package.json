@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "dev": "cross-env NODE_ENV=development && nodemon index.js",
+    "start": "cross-env NODE_ENV=production && node index.js"
   },
   "author": "hoodsey20",
   "license": "ISC",
@@ -13,6 +15,7 @@
     "telegraf": "^3.28.0"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "dotenv": "^7.0.0"
   }
 }
